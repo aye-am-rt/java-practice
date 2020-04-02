@@ -1,0 +1,10 @@
+
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬­ıÑ8óãĞßŒ.
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸šÜëÿÿÿÿÿ8¬¹ÇâŒ.
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó¤Úıÿÿÿÿ8…»ÑßŒ.
+msquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÀÄ¶8—™äŞŒ.
+hsquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(“ş98åöÏâŒ.
+¤%squid:RedundantThrowsDeclarationCheck
+"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8‰¤ÕâŒ.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(âäÅàÿÿÿÿÿ8‰¤ÕâŒ.
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(à´ö#8‰¤ÕâŒ.

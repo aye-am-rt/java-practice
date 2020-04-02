@@ -1,0 +1,5 @@
+
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(à´ö#8çÔ›ÞŒ.
+Isquid:S1172"&Remove these unused method parameters.(‚’ýýÿÿÿÿ8ôÝÓÞŒ.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(âäÅàÿÿÿÿÿ8çÔ›ÞŒ.
+¤%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8ôÝÓÞŒ.
