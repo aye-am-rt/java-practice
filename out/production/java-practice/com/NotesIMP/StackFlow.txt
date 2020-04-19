@@ -1,0 +1,55 @@
+
+There's an old trick to do this with only one comparison/branch. Whether it'll really improve speed may
+ be open to question, and even if it does, it's probably too little to notice or care about, but when
+  you're only starting with two comparisons, the chances of a huge improvement are pretty remote.
+  The code looks like:
+
+// use a < for an inclusive lower bound and exclusive upper bound
+// use <= for an inclusive lower bound and inclusive upper bound
+// alternatively, if the upper bound is inclusive and you can pre-calculate
+//  upper-lower, simply add + 1 to upper-lower and use the < operator.
+    if ((unsigned)(number-lower) <= (upper-lower))
+        in_range(number);
+With a typical, modern computer (i.e., anything using twos complement), the conversion to unsigned is
+really a nop -- just a change in how the same bits are viewed.
+
+Note that in a typical case, you can pre-compute upper-lower outside a (presumed) loop, so that doesn't
+normally contribute any significant time. Along with reducing the number of branch instructions, this
+ also (generally) improves branch prediction. In this case, the same branch is taken whether the number
+ is below the bottom end or above the top end of the range.
+
+As to how this works, the basic idea is pretty simple: a negative number, when viewed as an unsigned
+number, will be larger than anything that started out as a positive number.
+
+In practice this method translates number and the interval to the point of origin and checks if number is
+ in the interval [0, D], where D = upper - lower. If number below lower bound: negative, and if above
+ upper bound: larger than D.
+
+
+ =================================================================================================
+
+
+The problem with relying on any floating point computation (math.sqrt(x), or x**0.5) is that you can't
+really be sure it's exact (for sufficiently large integers x, it won't be, and might even overflow).
+Fortunately (if one's in no hurry;-) there are many pure integer approaches, such as the following...:
+
+def is_square(apositiveint):
+  x = apositiveint // 2
+  seen = set([x])  # or just write {x}  ..set of x.
+  while x * x != apositiveint:
+    x = (x + (apositiveint // x)) // 2
+    if x in seen: return False
+    seen.add(x)
+  return True
+
+for i in range(110, 130):
+   print i, is_square(i)
+Hint: it's based on the "Babylonian algorithm" for square root, see wikipedia. It does work for any
+positive number for which you have enough memory for the computation to proceed to completion;-).
+
+Edit: let's see an example...
+
+x = 12345678987654321234567 ** 2
+
+for i in range(x, x+2):
+   print i, is_square(i)
