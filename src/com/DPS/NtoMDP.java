@@ -22,8 +22,6 @@ Approach: Create an array dp[] of size MAX = 10^5 + 5 to store the answer in ord
             and return the minimum.*/
 
 public class NtoMDP {
-
-
     // Driver Code
     static final int N_MAX = 10000;
     static int n, m;
@@ -34,8 +32,8 @@ public class NtoMDP {
         m = 6;
         Arrays.fill(dp, -1);
         System.out.println(minOpsNtoMConversion(n));
+        System.out.println(minStepsToConvertGivenConditions(n,m));
     }
-
     private static int minOpsNtoMConversion(int k) {
         if(k <= 0 || k > N_MAX || k>m)
             return 1000000000;
@@ -49,5 +47,34 @@ public class NtoMDP {
         dp[k]=1+Math.min(minOpsNtoMConversion(2*k),minOpsNtoMConversion(k-1));
 
         return dp[k];
+    }
+/**   2nd method =================
+The idea is to reverse the problem as follows: We should get the number N starting from M using the
+ operations:
+
+Divide the number by 2 if it is even.
+Add 1 to the number.
+Now, the minimum number of operations would be:
+
+If N > M, return the difference between them, that is, number of steps will be adding 1 to M
+ until it becomes equal to N.
+Else if N < M.
+Keep dividing M by 2 until it becomes less than N. If M is odd, add 1 to it first and then divide
+ by 2. Once M is less than N, add the difference between them to the count along with the count
+ of above operations.*/
+
+
+    private static int minStepsToConvertGivenConditions(int first, int toSecond) {
+        int ans= 0;
+        while(toSecond>first)
+        {
+            if(toSecond % 2 == 1)  // sec num is odd or (toSecond & 1)==1  is also same.
+            { toSecond++; }
+            else
+            { toSecond/=2; }
+
+            ans++;
+        }
+        return (ans+ first - toSecond);
     }
 }

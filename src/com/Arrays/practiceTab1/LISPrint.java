@@ -45,7 +45,6 @@ public class LISPrint {
                     currentMax = array[j];
                 }
             }
-
             //Compare previous highest subsequence
             if(highestCount < list.size())
             {
@@ -55,14 +54,11 @@ public class LISPrint {
             list.clear();
         }
         //System.out.println();
-
         //Print list
         Iterator<Integer> itr = longestList.iterator();
         System.out.println("The Longest subsequence");
         while(itr.hasNext())
-        {
-            System.out.print(itr.next() + " ");
-        }
+        { System.out.print(itr.next() + " "); }
         System.out.println();
         System.out.println("Length of LIS: " + highestCount);
     }

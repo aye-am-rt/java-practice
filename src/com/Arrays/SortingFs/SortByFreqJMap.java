@@ -32,15 +32,16 @@ public class SortByFreqJMap {
     public static void main(String[] args) {
         int[] array = {4, 4, 2, 2, 2, 2, 3, 3, 1, 1, 6, 7, 5};
         HashMap<Integer,Integer> map1=new HashMap<>();
-        ArrayList<Integer> outputArray = new ArrayList<>();
+        ArrayList<Integer> outputArrayList = new ArrayList<>();
         for (int curr:array) {
             int count=map1.getOrDefault(curr,0);
             map1.put(curr,count+1);
-            outputArray.add(curr);
+            outputArrayList.add(curr);
         }
         SortComparator comp=new SortComparator(map1);
-        Collections.sort(outputArray,comp);
-        for (Integer i : outputArray) {
+        Collections.sort(outputArrayList,comp);
+        // outputArrayList.sort(comp);
+        for (Integer i : outputArrayList) {
             System.out.print(i + " ");
         }
     }

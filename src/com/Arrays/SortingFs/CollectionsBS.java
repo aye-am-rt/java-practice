@@ -17,10 +17,8 @@ public class CollectionsBS {
             l.add(new Domain(30, "code.geeksforgeeks.org"));
             l.add(new Domain(40, "www.geeksforgeeks.org"));
 
-            Comparator<Domain> c = new Comparator<Domain>()
-            {
-                public int compare(Domain u1, Domain u2)
-                {
+            Comparator<Domain> c = new Comparator<>() {
+                public int compare(Domain u1, Domain u2) {
                     return u1.getId().compareTo(u2.getId());
                 }
             };

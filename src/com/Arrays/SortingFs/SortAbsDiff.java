@@ -22,6 +22,7 @@ public class SortAbsDiff {
         int x = 7;
         SortByAbsDifference(arr, n, x);
         System.out.println(Arrays.toString(arr));
+        /***************** testing binary search built in java below ***********************/
         int[] bsAr={12, 16, 22, 30, 35, 39, 42, 45, 48, 50, 53, 55, 56};
         int[] myIntArray={10, -20, 30, -40, 50};
         ArrayList<Integer> IntegerListFromIntArray =
@@ -40,6 +41,7 @@ public class SortAbsDiff {
 
         int ind2=Collections.binarySearch(list,-20,Collections.reverseOrder());
         // The last parameter specifies the comparator method used for sorting.
+        // without Collections.reverseOrder() it returns -1 which is index of actual -20.
         System.out.println(list);
         if(ind2<myIntArray.length)
         { System.out.println("binary search index of -20 == " + ind2); }
@@ -57,6 +59,7 @@ public class SortAbsDiff {
         }
         //HashMap<Integer,Integer> hm=new HashMap<>();
         TreeMap<Integer, ArrayList<Integer>> tMap=new TreeMap<>();
+        // tree map keeps them sorted keys , nlogn time .
         for (int i = 0; i < n; i++) {
             int DiffsKey=Math.abs(x-arr[i]);
             if(tMap.containsKey(DiffsKey))

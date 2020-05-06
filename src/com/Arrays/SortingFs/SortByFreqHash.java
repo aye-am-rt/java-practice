@@ -1,19 +1,16 @@
 package com.Arrays.SortingFs;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
 
 /**
 All of the above approaches work in O(n Log n) time where n is total number of elements.
 In this post, a new approach is discussed that works in O(n + m Log m) time where n is total number of
 elements and m is total number of distinct elements.
-
         The idea is to use hashing.
-
         We insert all elements and their counts into a hash. This step takes O(n) time where
         n is number of elements.
         We copy contents of hash to an array (or vector) and sort them by counts.
@@ -24,34 +21,44 @@ elements and m is total number of distinct elements.
 */
 public class SortByFreqHash {
     public static void main(String[] args) throws IOException {
-        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-        int[] arr= Arrays.stream(br.readLine().strip().split("\\s")).mapToInt(Integer::parseInt).toArray();
+        //BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        //int[] arr= Arrays.stream(br.readLine().strip().split("\\s"))
+        //                                          .mapToInt(Integer::parseInt).toArray();
         // int findSum=Integer.parseInt(br.readLine().strip());
+        int[] arr = {2, 3, 2, 4, 5, 12, 2, 3, 3, 3, 12};
         System.out.println("sorted by frequency decreasing " +SortByFreq(arr, arr.length));
     }
 
     private static StringBuffer SortByFreq(int[] arr, int ln) {
-        Map<Integer,Integer> countMap=getCountMap(arr,ln);
+        Map<Integer,Integer> countMap =getCountMapMyFunction(arr,ln);
         StringBuffer result=new StringBuffer();
         countMap.entrySet().stream().sorted(Map.Entry.<Integer,Integer> comparingByValue().reversed())
                 .forEach(e->{int key=e.getKey();int val=e.getValue();
-                    for (int i = 0; i < val; i++) {
-                        result.append(key+" ");
-                    }});
+                    result.append((key + " ").repeat(Math.max(0, val)));
+                });
+        LinkedHashSet<Integer> lhsInts=new LinkedHashSet<>();
+        int[] ansArray= Arrays.stream(result.toString().split(" "))
+                .mapToInt(Integer::parseInt).toArray();
+        for (int val : ansArray) {
+            lhsInts.add(val);
+        }
+        System.out.println("linked hash set = "+lhsInts);
+        System.out.println("ans as integer array = "+Arrays.toString(ansArray));
         return result;
     }
 
-    private static Map<Integer, Integer> getCountMap(int[] arr2, int ln2) {
+/** output of program =======
+ *  linked hash set = [3, 2, 12, 4, 5]
+    ans as integer array = [3, 3, 3, 3, 2, 2, 2, 12, 12, 4, 5]
+    sorted by frequency decreasing 3 3 3 3 2 2 2 12 12 4 5   */
+
+    private static Map<Integer, Integer> getCountMapMyFunction(int[] arr2, int ln2) {
         Map<Integer,Integer> counterMap=new LinkedHashMap<>();
         for (int i = 0; i < ln2; i++) {
             if(counterMap.containsKey(arr2[i]))
-            {
-                counterMap.put(arr2[i],counterMap.get(arr2[i])+1);
-            }
+            { counterMap.put(arr2[i],counterMap.get(arr2[i])+1); }
             else
-            {
-                counterMap.put(arr2[i],1);
-            }
+            { counterMap.put(arr2[i],1); }
         }
         return counterMap;
     }

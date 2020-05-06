@@ -1,6 +1,8 @@
 package com.Arrays.SortingFs;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 
 /** Implementations
@@ -74,10 +76,7 @@ public class SortFreqSBBT {
 
         @Override
         public String toString() {
-            return "dataFreq{" +
-                    "data=" + data +
-                    ", freq=" + freq +
-                    '}';
+            return "("+ data +"->"+ freq+")";
         }
     }
     static void printInorder(BSTNode node)
@@ -107,7 +106,7 @@ public class SortFreqSBBT {
         // Store item from root and increment index
         count[index].freq = root.freq;
         count[index].data = root.data;
-        index++;
+        index=index+1;
 
         // Recur for right subtree
         store(root.right, count, index);
@@ -115,14 +114,20 @@ public class SortFreqSBBT {
     /*  Compare frequencies to sort the array according to decreasing order of frequency */
     static class SortComparator implements Comparator<dataFreq>
     {
-
-        SortComparator(dataFreq[] dataFreqArray) {
-        }
-
         @Override
         public int compare(dataFreq a,dataFreq b)
         {
-            return(b.freq-a.freq);
+            if(a.freq>b.freq)
+                return 1;
+            else if(a.freq<b.freq)
+                return -1;
+            else
+            {
+                if(a.data>b.data)
+                    return 1;
+                else
+                    return -1;
+            }
         }
     }
     static String sortByFrequencySBBST(int[] arr, int n)
@@ -132,31 +137,45 @@ public class SortFreqSBBT {
             root = insert(root, arr[i]);
 
         printInorder(root);
-        System.out.println();
+        System.out.println("Printed inorder above ");
         // Create an auxiliary array 'count[]' to store data and
         // frequency pairs. The maximum size of this array would
         // be n when all elements are different
         dataFreq[] count=new dataFreq[n];
+        // [(0->1),(1->1),(2->1),.....(n-1 ->1)] this is count array initially
         for (int i = 0; i < n; i++) {
-            count[i]=new dataFreq(i,1);
+            count[i]=new dataFreq(i,-1);
         }
         int index = 0;
-        System.out.println(Arrays.toString(count));
+        //System.out.println(Arrays.toString(count));
         store(root, count, index);
         System.out.println(Arrays.toString(count));
+        //System.out.println(" after storing value of index == "+index);
 
         // Sort the count[] array according to frequency (or count)
-        SortComparator comp=new SortComparator(count);
-        Arrays.sort(count,comp);
+        SortComparator comp=new SortComparator();
+        Arrays.sort(count, Collections.reverseOrder(comp));
         // Finally, traverse the sorted count[] array and copy the
         // i'th item 'freq' times to original array 'arr[]'
+        System.out.println("after sorting should  be decc order of freq ");
+        System.out.println(Arrays.toString(count));
         int j = 0;
-        for (int i = 0; i < index; i++)
+        int k=j;
+        ArrayList<Integer> SortedByFreqAl=new ArrayList<>();
+        while(count[j].freq>0)
         {
-            for (int freq = count[i].freq; freq > 0; freq--)
-                arr[j++] = count[i].data;
+            SortedByFreqAl.add(count[j].data);
+            int elem=count[j].data;
+            int freq=count[j].freq;
+            for (int i = k; i < freq+k ; i++) {
+                arr[i]=elem;
+            }
+            k=k+freq;
+            j+=1;
         }
-    return Arrays.toString(arr);
+        System.out.println("final answer elements sorted by freq showing just 1 time each==");
+        System.out.println(SortedByFreqAl);
+        return Arrays.toString(arr);
     }
     public static void main(String[] args)
     {

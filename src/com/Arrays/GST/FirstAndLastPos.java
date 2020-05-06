@@ -23,7 +23,7 @@ public class FirstAndLastPos {
     public static void main(String[] args)
     {
        int[] arr = {1, 3, 5, 5, 5, 5 ,67, 123, 125};
-        int x = 51;
+        int x = 5;
         FindFirstLastPosition(arr,arr.length,x);
     }
 
@@ -39,7 +39,7 @@ public class FirstAndLastPos {
     private static int FindFirstPos(int[] arr, int left, int right, int x, int length) {
         if(right>= left)
         {
-            int mid = left + (right- left)/2;
+            int mid = left + (right- left)/2; //this is good technique to avoid integer Limit overflow
             if( ( mid == 0 || x > arr[mid-1]) && arr[mid] == x)
                 return mid;
             else if(x > arr[mid])

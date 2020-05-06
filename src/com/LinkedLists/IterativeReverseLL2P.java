@@ -35,7 +35,7 @@ public class IterativeReverseLL2P {
         LLNode temp=hdNode;
         while(temp!=null)
         {
-            System.out.print(temp.data+"-->");
+            System.out.print(temp.data+"--> ");
             temp=temp.next;
         }
         System.out.println("NULL");

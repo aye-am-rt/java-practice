@@ -15,7 +15,8 @@ public class allSubstrings1 {
         System.out.println("n= "+n);
         System.out.println(printAllSubs(str1, str1.length()));
     }
-
+    // input= abc, output == [a, ab, abc, b, bc, c]
+    // this gives lesser subsequences keeps it continuous, does not gives "ac" which is discontinuous.
     private static ArrayList<String> printAllSubs(String str1, int n) {
         ArrayList<String> al=new ArrayList<>();
         for (int i = 0; i < n; i++) {
@@ -26,5 +27,3 @@ public class allSubstrings1 {
         return al;
     }
 }
-//    d  c  cd  b  bd  bc  bcd  a  ad  ac  acd  ab  abd  abc  abcd      1 type
-//    [ a, ab, abc, abcd, b, bc, bcd, c, cd, d]                         2 type
