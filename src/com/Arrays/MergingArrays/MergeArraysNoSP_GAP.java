@@ -48,7 +48,7 @@ public class MergeArraysNoSP_GAP {
             return;
         int gap=l1+l2;
         int i,j;
-        for(gap=FindNextCeilGap(gap);gap>0;gap=FindNextCeilGap(gap))
+        for(gap=FindNextCeilGap(gap); gap>0; gap=FindNextCeilGap(gap))
         {
             for (i = 0; i + gap <l1 ; i++)
             {

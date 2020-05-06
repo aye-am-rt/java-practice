@@ -75,8 +75,6 @@ V
 &src/com/Matrixs/xyZigZagZeroSteps.java,a\b\ab34903631913739cbc977a1270152657185882a
 U
 %src/com/Matrixs/MinStepsReachEnd.java,3\2\327e85f37d7dbcd491d614bfe663eb20f7c2deab
-f
-6src/com/Arrays/AmazonSubArrays/PairClosestSumZero.java,6\b\6b7b9118d3c0f85f0076b873029c31de0aa56a65
 \
 ,src/com/Matrixs/MinStepsToReachEndArray.java,e\9\e9ee6aba5f73ac07de66152896272c4db202b3d3
 G
@@ -85,16 +83,8 @@ j
 :src/com/Arrays/AmazonSubArrays/ProductOfAllSuArraysBF.java,b\8\b882a7e1d8df965eddb45d5975295b629e4a7bc3
 Y
 )src/com/Arrays/practiceTab1/LISPrint.java,0\4\04a5eec2003aacac82f4ba091b3096bd3ce80db5
-J
-src/com/Strings/LCSdp.java,3\0\30cf7f5a785cfffe7fb734dcc5748584742e0190
-m
-=src/com/Arrays/AmazonSubArrays/LongestSubAdjacentElement.java,5\5\558d4d881441b93d1f77240a096077c2e50ac8cc
-p
-@src/com/Arrays/AmazonSubArrays/LongestSubSeqAdjacentElemCom.java,8\c\8c4c0996eaa63612162ebf0ac097bbd69af915df
 Y
 )src/com/Strings/LongestCommonAnagram.java,e\c\ec56de728dfa5b30f7f3ea4bf3821bf95583925d
-O
-src/com/Strings/LCSubArray.java,2\8\284e0fcbe0374d85031c5725785d9517f60ab4f4
 j
 :src/com/Arrays/AmazonSubArrays/CountSubArAllUnqDigits.java,a\7\a7e9027fc811e89ea7d11cf9c19d36c1f3b759af
 Z

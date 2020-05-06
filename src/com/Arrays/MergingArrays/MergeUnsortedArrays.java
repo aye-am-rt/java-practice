@@ -24,6 +24,11 @@ public class MergeUnsortedArrays {
         // Final merge list
         int[] res = new int[n + m];
         sortedMergeIntoNewArray(a, b, res, n, m);
+        double dl=32.5678;
+        String st = String.valueOf(dl);
+        StringBuilder sb=new StringBuilder(st);
+        st=sb.reverse().toString();
+        System.out.println(st);
 
         System.out.print( "Sorted merged list :");
         for (int i = 0; i < n + m; i++)
