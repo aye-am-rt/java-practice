@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4eab790-75f9-4494-8ef4-c7b111528b77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/CommonIn3ArraysSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Strings/LongestCommonPrefix2M.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Strings/LongestCommonPrefixDC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Strings/LongestCommonPrefixSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/284e0fcbe0374d85031c5725785d9517f60ab4f4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30cf7f5a785cfffe7fb734dcc5748584742e0190" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/558d4d881441b93d1f77240a096077c2e50ac8cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b7b9118d3c0f85f0076b873029c31de0aa56a65" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c4c0996eaa63612162ebf0ac097bbd69af915df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/MergingArrays/MergeKSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/MergingArrays/MergeUnsortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/MergingArrays/MergeUnsortedArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/UnSortedJIDiffMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/UnSortedJIDiffMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/MergingArrays/MergeArraysNoSP_GAP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/MergingArrays/MergeArraysNoSP_GAP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/MergingArrays/MergeUnsortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/MergingArrays/MergeUnsortedArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +46,7 @@
       <recent name="H:\intPython2-cg\java-practice\src\com\NotesIMP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeUnsortedArrays">
-    <configuration name="BoolMatrixModifyRC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Matrixs.BoolMatrixModifyRC" />
-      <module name="java-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Matrixs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeKSortedArrays">
     <configuration name="LongestCommonPrefix2M" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Strings.LongestCommonPrefix2M" />
       <module name="java-practice" />
@@ -112,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeKSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.MergingArrays.MergeKSortedArrays" />
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.MergingArrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeUnsortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Arrays.MergingArrays.MergeUnsortedArrays" />
       <module name="java-practice" />
@@ -127,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeKSortedArrays" />
         <item itemvalue="Application.MergeUnsortedArrays" />
         <item itemvalue="Application.LongestCommonPrefixSorting" />
         <item itemvalue="Application.LongestCommonPrefix2M" />
         <item itemvalue="Application.LongestCommonPrefixDC" />
-        <item itemvalue="Application.BoolMatrixModifyRC" />
       </list>
     </recent_temporary>
   </component>
@@ -180,22 +167,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="479" y="254" width="411" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1588758303718" />
-    <state width="1323" height="189" key="GridCell.Tab.0.bottom" timestamp="1588789322014">
+    <state width="1323" height="189" key="GridCell.Tab.0.bottom" timestamp="1588830382797">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="189" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588789322014" />
-    <state width="1323" height="189" key="GridCell.Tab.0.center" timestamp="1588789322013">
+    <state width="1323" height="189" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588830382797" />
+    <state width="1323" height="189" key="GridCell.Tab.0.center" timestamp="1588830382797">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="189" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588789322013" />
-    <state width="1323" height="189" key="GridCell.Tab.0.left" timestamp="1588789322013">
+    <state width="1323" height="189" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588830382797" />
+    <state width="1323" height="189" key="GridCell.Tab.0.left" timestamp="1588830382797">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="189" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588789322013" />
-    <state width="1323" height="189" key="GridCell.Tab.0.right" timestamp="1588789322013">
+    <state width="1323" height="189" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588830382797" />
+    <state width="1323" height="189" key="GridCell.Tab.0.right" timestamp="1588830382797">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="189" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588789322013" />
+    <state width="1323" height="189" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588830382797" />
     <state x="339" y="165" width="672" height="677" key="run.anything.popup" timestamp="1587013104661">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
