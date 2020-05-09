@@ -18,8 +18,7 @@ public class MergeArraysBi_tonicBetter {
         return (gap / 2) + (gap % 2);
     }
 
-    // Function to merge two sorted
-    // arrays with O(1) extra space
+    // Function to merge two sorted arrays with O(1) extra space
     static void mergeTwoSortedArray(int []arr1, int []arr2, int n, int m)
     {
         int x = Math.min(n, m);

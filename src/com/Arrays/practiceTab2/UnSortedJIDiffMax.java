@@ -25,15 +25,15 @@ public class UnSortedJIDiffMax {
     { // inefficient 2 loops and oN^2  time taken.
         int maxDiff = -1;
         int i, j;
-        for (i = 0; i < n; ++i)
+        for (i = 0; i < n; ++i) // inefficient 2 loops and oN^2  time taken.
         {
-            for (j = n - 1; j > i; --j)
+            for (j = n - 1; j > i; --j) // inefficient 2 loops and oN^2  time taken.
             {
                 if (arr[j] > arr[i] && maxDiff < (j - i))
                     maxDiff = j - i;
             }
         }
-        return maxDiff;
+        return maxDiff;  // inefficient 2 loops and oN^2  time taken.
     }
 
     private static int FindMaxDiffGivenCondition(int[] arr, int n) {

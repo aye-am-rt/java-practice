@@ -1,110 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="a4eab790-75f9-4494-8ef4-c7b111528b77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/MergingArrays/MergeKSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="190" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1WHgNfhSHu0injJzrxGsUJlr8ED" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="com.practiceTab2" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\intPython2-cg\java-practice\src\com\Arrays\AmazonSubArrays" />
-      <recent name="H:\intPython2-cg\java-practice\src\com\NotesIMP" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.MergeKSortedArrays">
-    <configuration name="LongestCommonPrefix2M" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Strings.LongestCommonPrefix2M" />
+  <component name="RunManager">
+    <configuration name="KnapsackDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.KnapsackDP" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestCommonPrefixDC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Strings.LongestCommonPrefixDC" />
-      <module name="java-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestCommonPrefixSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Strings.LongestCommonPrefixSorting" />
-      <module name="java-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeKSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.MergingArrays.MergeKSortedArrays" />
-      <module name="java-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Arrays.MergingArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeUnsortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.MergingArrays.MergeUnsortedArrays" />
-      <module name="java-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Arrays.MergingArrays.*" />
+          <option name="PATTERN" value="com.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,87 +28,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeKSortedArrays" />
-        <item itemvalue="Application.MergeUnsortedArrays" />
-        <item itemvalue="Application.LongestCommonPrefixSorting" />
-        <item itemvalue="Application.LongestCommonPrefix2M" />
-        <item itemvalue="Application.LongestCommonPrefixDC" />
+        <item itemvalue="Application.KnapsackDP" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="a4eab790-75f9-4494-8ef4-c7b111528b77" name="Default Changelist" comment="" />
-      <created>1578811895838</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1578811895838</updated>
-    </task>
-    <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="413" y="124" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1587746066029">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="413" y="124" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1587746066029" />
-    <state x="401" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587944031957">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="401" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1587944031957" />
-    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1588701807120">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1588701807120" />
-    <state x="479" y="254" width="411" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588758303718">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="479" y="254" width="411" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1588758303718" />
-    <state width="1323" height="189" key="GridCell.Tab.0.bottom" timestamp="1588830382797">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="189" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588830382797" />
-    <state width="1323" height="189" key="GridCell.Tab.0.center" timestamp="1588830382797">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="189" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588830382797" />
-    <state width="1323" height="189" key="GridCell.Tab.0.left" timestamp="1588830382797">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="189" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588830382797" />
-    <state width="1323" height="189" key="GridCell.Tab.0.right" timestamp="1588830382797">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="189" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588830382797" />
-    <state x="339" y="165" width="672" height="677" key="run.anything.popup" timestamp="1587013104661">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="339" y="165" width="672" height="677" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1587013104661" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1588325867109">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1588325867109" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/java_practice$MultiplyVeryBigNumArrays.ic" NAME="MultiplyVeryBigNumArrays Coverage Results" MODIFIED="1587861657704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.Arrays.AmazonSubArrays.*</FILTER>
-    </SUITE>
   </component>
 </project>

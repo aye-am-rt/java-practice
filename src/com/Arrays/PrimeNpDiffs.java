@@ -36,7 +36,7 @@ public class PrimeNpDiffs {
         Arrays.fill(trueForPrimesArray, true);
         trueForPrimesArray[0]=false;
         trueForPrimesArray[1]=false;
-        for (int i = 2; i*i < maxInArr1 + 1; i++) {
+        for (int i = 2; i*i < (maxInArr1 + 1); i++) {
             if(trueForPrimesArray[i]) {
                 for (int j = 2*i; j <maxInArr1+1 ; j+=i) {
                     trueForPrimesArray[j]=false;
@@ -74,7 +74,7 @@ public class PrimeNpDiffs {
     }
 }
 /*
-    A Better Solution can find XOR without using loop.
+    A Better Solution can find XOR without using loop.   //not related to above program just for info.
 
         1) Find bitwise OR of x and y (Result has set bits where either x has set or y has set bit).
         OR of x = 3 (011) and y = 5 (101) is 7 (111)

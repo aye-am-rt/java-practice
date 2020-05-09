@@ -12,7 +12,8 @@ public class MergeSortedArrays {
 
         System.out.println("Sorted and merged array 1  = "+MergeSortedArraysNOSP(arr1,arr2));
     }
-
+    // output
+    // Sorted and merged array 1  = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     private static String MergeSortedArraysNOSP(int[] arr1, int[] arr2) {
         int l1=arr1.length;
         int l2=arr2.length;
