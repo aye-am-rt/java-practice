@@ -15,21 +15,17 @@ Swap {0 ,2} -> Resulting array {8, 9, 1, 2, 0, 0, 3}
 Swap {0 ,3} -> Final array {8, 9, 1, 2, 3, 0, 0}*/
 
 public class MoveAllZeroToEndArray {
-
     // function to move all zeroes at
-// the end of array
+   // the end of array
     static void moveZerosToEnd(int[] arr, int n) {
-
-        // Count of non-zero elements
-        int count = 0;
-        int temp;
-
         // Traverse the array. If arr[i] is non-zero, then swap the element at
         // index 'count' with the element at index 'i'
         // {0, 1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0, 9};
+        // Count of non-zero elements
+        int count = 0;
         for (int i = 0; i < n; i++) {
             if ((arr[i] != 0)) {
-                temp = arr[count];
+                int temp = arr[count];
                 arr[count] = arr[i];
                 arr[i] = temp;
                 count = count + 1;

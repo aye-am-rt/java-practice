@@ -57,13 +57,13 @@ public class SortBinaryArray {
     private static void sortBinaryArray(int[] arr, int ln) {
         if(ln<1)
             throw new IllegalArgumentException();
-        int j=-1;
+        int j =- 1;
         for (int i = 0; i < ln; i++)
         {
             if(arr[i]<1)
             {    // if number is smaller than  then swap it with j-th number
                 // int[] a = { 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0 };
-                j++;
+                j ++;
                 int temp= arr[j];
                 arr[j]=arr[i];
                 arr[i]=temp;

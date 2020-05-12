@@ -5,6 +5,7 @@ package com.LinkedLists;
 //        Input : list : 5-> 15-> 20-> 25
 //        Output : Reversed Linked list : 25-> 20-> 15-> 5
 /**
+ * // not working method don't use this
 Trick : Idea behind printing a list in reverse order without any recursive function or loop is to use
  Carriage return (“r”). For this, we should have knowledge of length of list. Now, we should print
  n-1 blanck space and then print 1st element then “r”, futher again n-2 blank space and 2nd node
@@ -22,6 +23,7 @@ public class InterestingReverseLL {
             next = null;
         }
     }
+
     private static Node pushInFront(Node head, int data)
     {
         Node new_node = new Node(data);
@@ -30,6 +32,7 @@ public class InterestingReverseLL {
 
         return head;
     }
+    // not working method don't use this
     private static int printListAndGiveLength(Node head)
     {
         // i for finding length of list
@@ -44,7 +47,7 @@ public class InterestingReverseLL {
 
         return i;
     }
-
+    // not working method don't use this
     private static void printReverseLLInteresting(Node head, int n) {
         int j=0;
         Node current=head;
@@ -60,6 +63,7 @@ public class InterestingReverseLL {
 
     }
     // Driver code
+    // not working method don't use this
     public static void main(String[] args)
     {
         /* Start with the empty list */
@@ -83,4 +87,5 @@ public class InterestingReverseLL {
         printReverseLLInteresting(head, n);
         System.out.println();
     }
+    // not working method don't use this
 }

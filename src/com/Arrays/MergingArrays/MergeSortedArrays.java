@@ -24,7 +24,7 @@ public class MergeSortedArrays {
         int aEnd=l1-1;
         int bEnd=l2-1;
         int mergeIndex=l1-l2-1;
-        while (mergeIndex>-1 && bEnd>-1)
+        while (mergeIndex> -1 && bEnd> -1)
         {
             if(arr1[mergeIndex]>arr2[bEnd])
             {

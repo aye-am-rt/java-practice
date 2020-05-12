@@ -38,6 +38,11 @@ public class PrintMidElementLL {
         }
     }
 
+    /**    Method 2:
+     Initialize mid element as head and initialize a counter as 0. Traverse the list from head,
+     while traversing increment the counter and change mid to mid->next whenever the counter is odd.
+     So the mid will move only half of the total length of the list.*/
+
     private static void printMiddleElementOnlyOddMove(LLNode lHead) {
         if (lHead == null) {
             return;
@@ -57,11 +62,6 @@ public class PrintMidElementLL {
             System.out.println("The middle element is [" + findMid.data + "]");
 
     }
-
-    /**    Method 3:
-    Initialize mid element as head and initialize a counter as 0. Traverse the list from head,
- while traversing increment the counter and change mid to mid->next whenever the counter is odd.
- So the mid will move only half of the total length of the list.*/
 
     private static void printMiddleElement2PointerMethod(LLNode lHead) {
         if (lHead == null) {
