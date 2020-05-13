@@ -28,7 +28,7 @@ public class FindKClosestValues {
         int k=2;
         PrintKClosestValues(arr,x,k,arr.length);
     }
-    static class ArrayListComparator implements Comparator<ArrayList<Integer>> {
+    static class MyALComparator implements Comparator<ArrayList<Integer>> {
 
         @Override
         public int compare(ArrayList<Integer> al1, ArrayList<Integer> al2) {
@@ -49,7 +49,7 @@ public class FindKClosestValues {
             System.out.println("not enough elements in array");
             return;
         }
-        PriorityQueue<ArrayList<Integer>> pqAl= new PriorityQueue<>(new ArrayListComparator());
+        PriorityQueue<ArrayList<Integer>> pqAl= new PriorityQueue<>(new MyALComparator());
         for (int i = 0; i < k; i++) {
             ArrayList<Integer> al=new ArrayList<>();
             al.add(0,-Math.abs(arr[i]-x));
@@ -61,20 +61,18 @@ public class FindKClosestValues {
             int p=pqAl.peek().get(0);
             int pi=pqAl.poll().get(1);
             int curr=-p;
+            ArrayList<Integer> al=new ArrayList<>();
             if(diff>curr)
             {
-                ArrayList<Integer> al=new ArrayList<>();
                 al.add(0,-curr);
                 al.add(1,pi);
-                pqAl.add(al);
             }
             else
             {
-                ArrayList<Integer> al=new ArrayList<>();
                 al.add(0,-diff);
                 al.add(1,i);
-                pqAl.add(al);
             }
+            pqAl.add(al);
         }
         while(! pqAl.isEmpty())
         {

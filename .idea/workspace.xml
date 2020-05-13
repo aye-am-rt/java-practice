@@ -20,42 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b5cfd15-4201-4da4-92c3-d63702d6731a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/GST/FindOddTimerElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/SecondMaxElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/SortingFs/SortFirstKAscRestDesc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Matrixs/MaxPathSumMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Matrixs/MaxSumPathWay2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Matrixs/MinCellFlipsEqualMat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/NotesIMP/ArrayListSortDescending.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/NotesIMP/MultiplyWith7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/NotesIMP/TreeSetDescendingOrder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/SegregateThings/Move0Start1EndAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/SegregateThings/Sort0s1s2sDNFA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/SegregateThings/SortEvenOddAltAscending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Strings/CheckAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vmware/CountBitFlipsForAtoB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vmware/CountFlip0sMaximize1s.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vmware/FindNumOfZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vmware/PrintPascalTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubArrays/MaxLengthEvenSumSubA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/CheckRectanglesOverlap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/GST/FindMissingNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/GST/FindMissingNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/SortingFs/SortFHalfAscSecDsc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/SortingFs/SortFHalfAscSecDsc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/InterestingReverseLL$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/InterestingReverseLL$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/InterestingReverseLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/InterestingReverseLL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/PrintMidElementLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/PrintMidElementLL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/SegregateThings/MoveAllZeroToEndArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/SegregateThings/MoveAllZeroToEndArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/SegregateThings/SegregateEvenOddBetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/SegregateThings/SegregateEvenOddBetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/GST/FindMissingNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/GST/FindMissingNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/MergingArrays/MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/MergingArrays/MergeSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SortingFs/SortFHalfAscSecDsc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/SortingFs/SortFHalfAscSecDsc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/LinkedLists/InterestingReverseLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LinkedLists/InterestingReverseLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/LinkedLists/PrintMidElementLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LinkedLists/PrintMidElementLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SegregateThings/MoveAllZeroToEndArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SegregateThings/MoveAllZeroToEndArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SegregateThings/SegregateEvenOddBetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SegregateThings/SegregateEvenOddBetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SegregateThings/SortBinaryArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SegregateThings/SortBinaryArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/FindKClosestValues$ArrayListComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/FindKClosestValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/FindKClosestValues.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/FindKClosestValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/FindKClosestValues.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +57,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
-  <component name="RunManager" selected="Application.FindMissingNum">
-    <configuration name="CheckAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Strings.CheckAnagrams" />
+  <component name="RunManager" selected="Application.CheckRectanglesOverlap">
+    <configuration name="CheckRectanglesOverlap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.practiceTab2.CheckRectanglesOverlap" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Strings.*" />
+          <option name="PATTERN" value="com.Arrays.practiceTab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,47 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMissingNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.GST.FindMissingNum" />
-      <module name="java-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Arrays.GST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LCommonSubStringDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Strings.LCommonSubStringDP" />
-      <module name="java-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintLastKsp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.LinkedLists.PrintLastKsp2" />
-      <module name="java-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.LinkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintPascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vmware.PrintPascalTriangle" />
+    <configuration name="FindNumOfZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vmware.FindNumOfZeros" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
@@ -152,13 +84,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IterativeReverseLL2P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LinkedLists.IterativeReverseLL2P" />
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.LinkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxLengthEvenSumSubA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.AmazonSubArrays.MaxLengthEvenSumSubA" />
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.AmazonSubArrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLLNOSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LinkedLists.ReverseLLNOSP" />
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.LinkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindMissingNum" />
-        <item itemvalue="Application.PrintLastKsp2" />
-        <item itemvalue="Application.LCommonSubStringDP" />
-        <item itemvalue="Application.PrintPascalTriangle" />
-        <item itemvalue="Application.CheckAnagrams" />
+        <item itemvalue="Application.CheckRectanglesOverlap" />
+        <item itemvalue="Application.IterativeReverseLL2P" />
+        <item itemvalue="Application.FindNumOfZeros" />
+        <item itemvalue="Application.ReverseLLNOSP" />
+        <item itemvalue="Application.MaxLengthEvenSumSubA" />
       </list>
     </recent_temporary>
   </component>
@@ -196,22 +167,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1589309913946" />
-    <state width="1323" height="234" key="GridCell.Tab.0.bottom" timestamp="1589315630732">
+    <state width="1323" height="230" key="GridCell.Tab.0.bottom" timestamp="1589358808835">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="234" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1589315630732" />
-    <state width="1323" height="234" key="GridCell.Tab.0.center" timestamp="1589315630732">
+    <state width="1323" height="230" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1589358808835" />
+    <state width="1323" height="230" key="GridCell.Tab.0.center" timestamp="1589358808835">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="234" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1589315630732" />
-    <state width="1323" height="234" key="GridCell.Tab.0.left" timestamp="1589315630732">
+    <state width="1323" height="230" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1589358808835" />
+    <state width="1323" height="230" key="GridCell.Tab.0.left" timestamp="1589358808834">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="234" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1589315630732" />
-    <state width="1323" height="234" key="GridCell.Tab.0.right" timestamp="1589315630732">
+    <state width="1323" height="230" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1589358808834" />
+    <state width="1323" height="230" key="GridCell.Tab.0.right" timestamp="1589358808835">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="234" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1589315630732" />
+    <state width="1323" height="230" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1589358808835" />
     <state x="263" y="104" key="IDE.errors.dialog" timestamp="1589057911018">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
