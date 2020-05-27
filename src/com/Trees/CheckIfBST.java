@@ -46,9 +46,11 @@ public class CheckIfBST {
         }
         if(!CheckIfBSTUsingPrevValue(root.left,prev))
             return false;
+
         if(root.data<=prev)
             return false;
         prev=root.data;
+
         return CheckIfBSTUsingPrevValue(root.right,prev);
     }
 }

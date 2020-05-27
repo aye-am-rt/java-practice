@@ -29,11 +29,11 @@ import java.util.stream.IntStream;
 public class MaximizeProfitTicketSell {
     public static void main(String[] args)
     {
-        int[] arr={1,2,4}; // 2,3,4,5,1
-        int N=3;  // n=6
+        int[] arr={1,2,4}; //    2,3,4,5,1   using this answer ==  22
+        int N=3;  //             n=6
         // Arrays.sort(arr, Collections.reverseOrder()); does not work because its for list not int[].
         //  until you make your own comparator to sort it in rev order.
-        // better would be to make arrrayList from this array,and use
+        // better would be to make arrayList from this array,and use
         // collections.sort(listName,Collections.reverseorder())
         MaximizeProfitTicketSellArList(arr,N,arr.length);
         MaximizeProfitTicketSellPQueue(arr,N,arr.length);
@@ -88,12 +88,13 @@ public class MaximizeProfitTicketSell {
         // Insert each array element into the priority queue
         for (int i = 0; i < ln; i++)
         { q.add(arr[i]); }
+
         int ticketsSold=0;
         int maxProfit=0;
         while(ticketsSold<N && !q.isEmpty() && q.peek()>0)
         {
             maxProfit=maxProfit+q.peek();
-            int temp=q.poll();
+            int temp=q.poll();   // q.remove() anything
             q.add(temp-1);
             ticketsSold+=1;
         }

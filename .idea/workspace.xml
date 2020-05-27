@@ -20,13 +20,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b5cfd15-4201-4da4-92c3-d63702d6731a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubArrays/MaxLengthEvenSumSubA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/CheckRectanglesOverlap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubArrays/LargestSubAEq0and1s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubArrays/PrintAllSubAs0Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubSeq/LIS_nLogN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubSeq/LongestPalSubSeqDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubSeq/LongestSubSeqConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/GST/CountFreqONO1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/GST/KSmallestElementsO1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/LongestMountainSubA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/NutsAndBoltsProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/NutsAndBoltsSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/PrintingKnapsack01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/ChocolateDistributionProb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/DistinctElemWinSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/NumOfEmpUnderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/SnakeLadderGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/TilingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/A_PlusB_Eq_CPlusD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/MthSmallestInKArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DPS/BoxStackingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LinkedLists/UnionIntersectionLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Mathematical/CheckPalindromeO1SP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Matrixs/GoldMineCollect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Matrixs/RatInMazeBackT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/NotesIMP/DelListCondition.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/SegregateThings/RearrangeMaxMinAlternate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/SegregateThings/RearrangePosNegAlternate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/SegregateThings/RearrangePosNegSet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Stacks/DesignStackMinO1TSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Stacks/ImplStackUsingPQorHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Stacks/StackBy1Q.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Stacks/StackBy2Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/CheckIfSubT_set2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/CheckIfSubTreeOfAnother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/DistBtw2Nodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/LCA/FindLcaOf_N_nodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/LCA/LCA_set1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/LCA/LcaUsingParentPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/LCA/LcsInBST_iterO1SP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/LongestLeafToLeaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/MaxLevelSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/MaxXorPathBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/MergeTwoBSTS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/PrintAllKDistNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/PrintAllKDistanceNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/BottomView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/LeftViewIterateQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/LeftViewRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/PrintLeafNodesBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/PrintLeafNodesDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/PrintLeafNodesIterative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/PrintPath2Nodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/TopView3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/TopViewOfTree2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/6573d426167eb561fb0cfb9a03db4d47cfc6d1ad" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/6573d426167eb561fb0cfb9a03db4d47cfc6d1ad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b9cb78af70dd012462b76b996950723d6e11ff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/GST/FindMissingNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/GST/FindMissingNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/FindKClosestValues$ArrayListComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/FindKClosestValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/FindKClosestValues.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/FindKClosestValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/FindKClosestValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab1/LISPrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/MaximizeProfitTicketSell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/MaximizeProfitTicketSell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/InterestingReverseLL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/InterestingReverseLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/IterativeReverseLL2P.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/IterativeReverseLL2P.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Trees/CheckIfBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Trees/CheckIfBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Trees/RightViewSum$BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Trees/RightViewSum$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Trees/RightViewSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/vmware/KthMinMaxInStreamArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/vmware/SecondSmallest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/LISPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubSeq/LISPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/MaximizeProfitTicketSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/MaximizeProfitTicketSell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LinkedLists/InterestingReverseLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LinkedLists/IterativeReverseLL2P.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LinkedLists/IterativeReverseLL2P.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Trees/CheckIfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Trees/CheckIfBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Trees/LevelOrderQueue1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Trees/LevelOrderQueue1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Trees/MaxInBSTMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Trees/MaxInBSTMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Trees/RightViewSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Trees/Views/RightViewSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vmware/KthMinMaxInStreamArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/GST/KthMinMaxInStreamArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vmware/PrintPascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vmware/PrintPascalTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vmware/SecondSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/GST/SecondSmallest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +120,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -55,11 +128,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.CheckRectanglesOverlap">
-    <configuration name="CheckRectanglesOverlap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.practiceTab2.CheckRectanglesOverlap" />
+  <component name="RunManager" selected="Application.RatInMazeBackT">
+    <configuration name="MthSmallestInKArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.practiceTab2.MthSmallestInKArrays" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindNumOfZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vmware.FindNumOfZeros" />
+    <configuration name="NutsAndBoltsProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.NutsAndBoltsProblem" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vmware.*" />
+          <option name="PATTERN" value="com.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IterativeReverseLL2P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.LinkedLists.IterativeReverseLL2P" />
+    <configuration name="PrintingKnapsack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.PrintingKnapsack01" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.LinkedLists.*" />
+          <option name="PATTERN" value="com.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxLengthEvenSumSubA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.AmazonSubArrays.MaxLengthEvenSumSubA" />
+    <configuration name="RatInMazeBackT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Matrixs.RatInMazeBackT" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Arrays.AmazonSubArrays.*" />
+          <option name="PATTERN" value="com.Matrixs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLLNOSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.LinkedLists.ReverseLLNOSP" />
+    <configuration name="SnakeLadderGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.practiceTab1.SnakeLadderGame" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.LinkedLists.*" />
+          <option name="PATTERN" value="com.Arrays.practiceTab1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CheckRectanglesOverlap" />
-        <item itemvalue="Application.IterativeReverseLL2P" />
-        <item itemvalue="Application.FindNumOfZeros" />
-        <item itemvalue="Application.ReverseLLNOSP" />
-        <item itemvalue="Application.MaxLengthEvenSumSubA" />
+        <item itemvalue="Application.RatInMazeBackT" />
+        <item itemvalue="Application.SnakeLadderGame" />
+        <item itemvalue="Application.NutsAndBoltsProblem" />
+        <item itemvalue="Application.PrintingKnapsack01" />
+        <item itemvalue="Application.MthSmallestInKArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -159,38 +232,66 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="124" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1590254311881">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="124" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1590254311881" />
     <state x="403" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589049246361">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="403" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1589049246361" />
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1590501527608">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1590501527608" />
+    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1590329197755">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1590329197755" />
     <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1589309913946">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1589309913946" />
-    <state width="1323" height="230" key="GridCell.Tab.0.bottom" timestamp="1589358808835">
+    <state width="1323" height="238" key="GridCell.Tab.0.bottom" timestamp="1590520977859">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="230" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1589358808835" />
-    <state width="1323" height="230" key="GridCell.Tab.0.center" timestamp="1589358808835">
+    <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590520977859" />
+    <state width="1323" height="238" key="GridCell.Tab.0.center" timestamp="1590520977855">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="230" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1589358808835" />
-    <state width="1323" height="230" key="GridCell.Tab.0.left" timestamp="1589358808834">
+    <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590520977855" />
+    <state width="1323" height="238" key="GridCell.Tab.0.left" timestamp="1590520977855">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="230" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1589358808834" />
-    <state width="1323" height="230" key="GridCell.Tab.0.right" timestamp="1589358808835">
+    <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590520977855" />
+    <state width="1323" height="238" key="GridCell.Tab.0.right" timestamp="1590520977855">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="230" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1589358808835" />
+    <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590520977855" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1590052322283">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590052322283" />
+    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1590052322283">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1590052322283" />
+    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1590052322283">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1590052322283" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1590052322283">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1590052322283" />
     <state x="263" y="104" key="IDE.errors.dialog" timestamp="1589057911018">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="263" y="104" key="IDE.errors.dialog/0.0.1366.738@0.0.1366.738" timestamp="1589057911018" />
-    <state x="184" y="14" key="SettingsEditor" timestamp="1589236786223">
+    <state x="184" y="14" key="SettingsEditor" timestamp="1590486291816">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1589236786223" />
+    <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1590486291816" />
     <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1589057960917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -199,6 +300,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1589309919659" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1590330341910">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1590330341910" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1589202074747">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
