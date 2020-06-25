@@ -20,85 +20,154 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b5cfd15-4201-4da4-92c3-d63702d6731a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubArrays/LargestSubAEq0and1s.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubArrays/PrintAllSubAs0Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubSeq/LIS_nLogN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubSeq/LongestPalSubSeqDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubSeq/LongestSubSeqConsecutive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/GST/CountFreqONO1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/GST/KSmallestElementsO1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/LongestMountainSubA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/NutsAndBoltsProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/NutsAndBoltsSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/PrintingKnapsack01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/ChocolateDistributionProb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/DistinctElemWinSizeK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/NumOfEmpUnderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/SnakeLadderGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/TilingProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/A_PlusB_Eq_CPlusD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/MthSmallestInKArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DPS/BoxStackingProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/LinkedLists/UnionIntersectionLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Mathematical/CheckPalindromeO1SP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Matrixs/GoldMineCollect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Matrixs/RatInMazeBackT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/NotesIMP/DelListCondition.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/SegregateThings/RearrangeMaxMinAlternate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/SegregateThings/RearrangePosNegAlternate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/SegregateThings/RearrangePosNegSet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Stacks/DesignStackMinO1TSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Stacks/ImplStackUsingPQorHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Stacks/StackBy1Q.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Stacks/StackBy2Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/CheckIfSubT_set2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/CheckIfSubTreeOfAnother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/DistBtw2Nodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/LCA/FindLcaOf_N_nodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/LCA/LCA_set1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/LCA/LcaUsingParentPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/LCA/LcsInBST_iterO1SP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/LongestLeafToLeaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/MaxLevelSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/MaxXorPathBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/MergeTwoBSTS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/PrintAllKDistNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/PrintAllKDistanceNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/BottomView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/LeftViewIterateQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/LeftViewRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/PrintLeafNodesBFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/PrintLeafNodesDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/PrintLeafNodesIterative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/PrintPath2Nodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/TopView3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trees/Views/TopViewOfTree2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/6573d426167eb561fb0cfb9a03db4d47cfc6d1ad" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/6573d426167eb561fb0cfb9a03db4d47cfc6d1ad" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b9cb78af70dd012462b76b996950723d6e11ff2" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubArrays/CountSub_SumEqualK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/ArrayInversions/CountInversionTireDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/ArrayInversions/CountInversionsMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/SortingFs/SortH_MapByKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/SortingFs/SortH_MapByValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/SubsetSums/CountSubsetsDivByM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/SubsetSums/PartEqualSumSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LinkedLists/DetectRemoveLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LinkedLists/DetectRemoveLoopHSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Mathematical/BinaryToDecimalConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Mathematical/DecimalToBinaryConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Matrixs/NumWaysReachDestination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Matrixs/ShortestSafePathLandMines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Matrixs/WaysTopLtoBRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Matrixs/ZombieTurnHumanTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/MixedNotSure/CountWaysStair1_2_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/MixedNotSure/DateAndTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/MixedNotSure/DateAndTimeMoreEg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/MixedNotSure/DecimalToRomanConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/MixedNotSure/EggDropFloorPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/MixedNotSure/LookAndSayFB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/MixedNotSure/RomanToDecimalBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Stacks/BestAverageScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Strings/JustSubStrings/AllSubStringsOfLenK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Strings/LCommonPrefix/LCommonPrefixTrieDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/RegexPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/regexdmunger4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceTab1/PainterPartitionMinTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practiceTab1/WordBreakBackTrackPrintAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e64d3c35fc518224b99ad1bc18af51d4d7d4e8b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c007bafd7ba769997a4c3acb9e738e6fbe7ee92" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a5ee13806e247b6afa12f600e56cc5a203a482b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c7a1a3303939dc526787139673d8ab20d915064" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a28d6f6184d600e040c5ebe77a6dfa9aa77e8834" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a74b868f7a6312b9f4fd3a46804bedd9b8241891" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1d0476d1ce869a3b57629bb2603c461292e850e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efec895f7cafcbcae40cc5b27f5b3efe09d0f7da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb273456bf064b1a50b1709bc58cd29b991bd678" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb805bf5e265da56c438f7a34e747a441fb2d463" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd814dbaa7a40fadd84a174c95dd4518bc7fcb55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe1339c2d060912a40e45b2d98924de370ae2bad" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab1/LISPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/MaximizeProfitTicketSell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/MaximizeProfitTicketSell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/InterestingReverseLL$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/InterestingReverseLL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/IterativeReverseLL2P.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/LinkedLists/IterativeReverseLL2P.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Trees/CheckIfBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Trees/CheckIfBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Trees/RightViewSum$BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Trees/RightViewSum$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Trees/RightViewSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/vmware/KthMinMaxInStreamArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/vmware/SecondSmallest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/LISPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubSeq/LISPrint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/MaximizeProfitTicketSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/MaximizeProfitTicketSell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/LinkedLists/InterestingReverseLL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/LinkedLists/IterativeReverseLL2P.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LinkedLists/IterativeReverseLL2P.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Trees/CheckIfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Trees/CheckIfBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Trees/LevelOrderQueue1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Trees/LevelOrderQueue1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Trees/MaxInBSTMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Trees/MaxInBSTMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Trees/RightViewSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Trees/Views/RightViewSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vmware/KthMinMaxInStreamArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/GST/KthMinMaxInStreamArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vmware/PrintPascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vmware/PrintPascalTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vmware/SecondSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/GST/SecondSmallest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/AmazonSubArrays/CheckSubArrayGivenProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/AmazonSubArrays/CountSubSetsGivenSumDP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/AmazonSubArrays/PrintAllSubArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/AmazonSubArrays/PrintAllSubArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/AmazonSubArrays/SumsOfEachSubset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/FractionalKnapsack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/KnapsackDP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/MaxLenArrayCond1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/MaxLenArrayCond1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/MinHallsClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/MinSwapCollect1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/NutsAndBoltsProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/NutsAndBoltsSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/PrimeNpDiffs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/PrintingKnapsack01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab1/ChocolateDistributionProb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab1/DistinctElemWinSizeK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab1/LargestRectangleHistogram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab1/MedianOfSlidingWindow$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab1/MedianOfSlidingWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab1/NumOfEmpUnderManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab1/SlidingWMaxAllSubs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab1/SnakeLadderGame$qEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab1/SnakeLadderGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab1/TilingProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab1/slidingWMaxSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/A_PlusB_Eq_CPlusD$pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/A_PlusB_Eq_CPlusD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/CheckRectanglesOverlap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/CountRectangles2$Int.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/CountRectangles2$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/CountRectangles2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/FindKClosestValues$MyALComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/FindKClosestValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/HuffmanCoding$HuffManNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/HuffmanCoding$MyComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/HuffmanCoding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/MaximizeProfitTicketSell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/MthSmallestInKArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/MyPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/Parserdoubt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/SearchSuggestionSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Arrays/practiceTab2/UnSortedJIDiffMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Mathematical/MakeBiggestNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Mathematical/MakeBiggestNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Matrixs/MultiplyTwoMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Matrixs/MultiplyTwoMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Matrixs/RatInMazeBackT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/com/Matrixs/RatInMazeBackT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Strings/LCSubSeqLengthMemoz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Strings/LCSubSeqSpaceSave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Strings/LCommonSubStringDP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Strings/LongestCommonPrefix2M.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Strings/LongestCommonPrefixDC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Strings/LongestCommonPrefixSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Strings/LongestISubSeqInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Strings/PrintLCSubSeqOFStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Strings/SumAllSubStringsNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Strings/allSubStrings3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Strings/allSubstrings1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/Strings/allSubstrings2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/AmazonSubArrays/CountSubSetsGivenSumDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/SubsetSums/CountSubSetsGivenSumDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/AmazonSubArrays/PrintAllSubArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/AmazonSubArrays/PrintAllSubArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/AmazonSubArrays/SumsOfEachSubset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/SubsetSums/SumsOfEachSubset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/FractionalKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Knapsacks/FractionalKnapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/KnapsackDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Knapsacks/KnapsackDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/MaxLenArrayCond1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/MaxLenArrayCond1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/MinHallsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/MixedNotSure/MinHallsClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/MinSwapCollect1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/MixedNotSure/MinSwapCollect1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/NutsAndBoltsProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/MixedNotSure/NutsAndBoltsProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/NutsAndBoltsSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/MixedNotSure/NutsAndBoltsSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/PrimeNpDiffs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/MixedNotSure/PrimeNpDiffs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/PrintingKnapsack01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Knapsacks/PrintingKnapsack01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/ChocolateDistributionProb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab1/ChocolateDistributionProb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/DistinctElemWinSizeK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab1/DistinctElemWinSizeK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/LargestRectangleHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab1/LargestRectangleHistogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/MedianOfSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab1/MedianOfSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/NumOfEmpUnderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab1/NumOfEmpUnderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/SlidingWMaxAllSubs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab1/SlidingWMaxAllSubs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/SnakeLadderGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab1/SnakeLadderGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/TilingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab1/TilingProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab1/slidingWMaxSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab1/slidingWMaxSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/A_PlusB_Eq_CPlusD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab2/A_PlusB_Eq_CPlusD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/CheckRectanglesOverlap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab2/CheckRectanglesOverlap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/CountRectangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab2/CountRectangles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/CountRectangles2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab2/CountRectangles2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/FindKClosestValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab2/FindKClosestValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/HuffmanCoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab2/HuffmanCoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/MaximizeProfitTicketSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab2/MaximizeProfitTicketSell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/MthSmallestInKArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab2/MthSmallestInKArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/SearchSuggestionSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab2/SearchSuggestionSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/practiceTab2/UnSortedJIDiffMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practiceTab2/UnSortedJIDiffMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Mathematical/MakeBiggestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Mathematical/MakeBiggestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Matrixs/MultiplyTwoMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Matrixs/MultiplyTwoMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Strings/LCSubSeqLengthMemoz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Strings/SubSequences/LCSubSeqLengthMemoz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Strings/LCSubSeqSpaceSave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Strings/SubSequences/LCSubSeqSpaceSave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Strings/LCommonSubStringDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Strings/JustSubStrings/LCommonSubStringDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Strings/LongestCommonPrefix2M.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Strings/LCommonPrefix/LongestCommonPrefix2M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Strings/LongestCommonPrefixDC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Strings/LCommonPrefix/LongestCommonPrefixDC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Strings/LongestCommonPrefixSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Strings/LCommonPrefix/LongestCommonPrefixSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Strings/LongestISubSeqInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Strings/SubSequences/LongestISubSeqInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Strings/PrintLCSubSeqOFStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Strings/SubSequences/PrintLCSubSeqOFStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Strings/SumAllSubStringsNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Strings/JustSubStrings/SumAllSubStringsNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Strings/allSubStrings3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Strings/JustSubStrings/allSubStrings3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Strings/allSubstrings1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Strings/JustSubStrings/allSubstrings1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Strings/allSubstrings2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Strings/JustSubStrings/allSubstrings2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,18 +194,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.RatInMazeBackT">
-    <configuration name="MthSmallestInKArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.practiceTab2.MthSmallestInKArrays" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\intPython2-cg\java-practice\src\com\company" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BinaryToDecimalConvert">
+    <configuration name="BinaryToDecimalConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Mathematical.BinaryToDecimalConvert" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Arrays.practiceTab2.*" />
+          <option name="PATTERN" value="com.Mathematical.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +219,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NutsAndBoltsProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.NutsAndBoltsProblem" />
+    <configuration name="CountSub_SumEqualK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.AmazonSubArrays.CountSub_SumEqualK" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Arrays.*" />
+          <option name="PATTERN" value="com.Arrays.AmazonSubArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +232,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintingKnapsack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.PrintingKnapsack01" />
+    <configuration name="DecimalToBinaryConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Mathematical.DecimalToBinaryConvert" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Arrays.*" />
+          <option name="PATTERN" value="com.Mathematical.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +245,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RatInMazeBackT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Matrixs.RatInMazeBackT" />
+    <configuration name="PrintAllSubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.AmazonSubArrays.PrintAllSubArrays" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Matrixs.*" />
+          <option name="PATTERN" value="com.Arrays.AmazonSubArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +258,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakeLadderGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.practiceTab1.SnakeLadderGame" />
+    <configuration name="subsetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.SubsetSums.subsetSum" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Arrays.practiceTab1.*" />
+          <option name="PATTERN" value="com.Arrays.SubsetSums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RatInMazeBackT" />
-        <item itemvalue="Application.SnakeLadderGame" />
-        <item itemvalue="Application.NutsAndBoltsProblem" />
-        <item itemvalue="Application.PrintingKnapsack01" />
-        <item itemvalue="Application.MthSmallestInKArrays" />
+        <item itemvalue="Application.BinaryToDecimalConvert" />
+        <item itemvalue="Application.DecimalToBinaryConvert" />
+        <item itemvalue="Application.PrintAllSubArrays" />
+        <item itemvalue="Application.CountSub_SumEqualK" />
+        <item itemvalue="Application.subsetSum" />
       </list>
     </recent_temporary>
   </component>
@@ -231,19 +306,26 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="124" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1590254311881">
+    <state x="275" y="10" key="#Plugins" timestamp="1590666257889">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="413" y="124" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1590254311881" />
+    <state x="275" y="10" key="#Plugins/0.0.1366.738@0.0.1366.738" timestamp="1590666257889" />
+    <state x="413" y="124" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1590672503032">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="124" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1590672503032" />
     <state x="403" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589049246361">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="403" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1589049246361" />
-    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1590501527608">
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1590708802248">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1590501527608" />
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1590708802248" />
     <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1590329197755">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -252,22 +334,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1589309913946" />
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom" timestamp="1590520977859">
+    <state width="1323" height="168" key="GridCell.Tab.0.bottom" timestamp="1593024104248">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590520977859" />
-    <state width="1323" height="238" key="GridCell.Tab.0.center" timestamp="1590520977855">
+    <state width="1323" height="168" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593024104248" />
+    <state width="1323" height="168" key="GridCell.Tab.0.center" timestamp="1593024104248">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590520977855" />
-    <state width="1323" height="238" key="GridCell.Tab.0.left" timestamp="1590520977855">
+    <state width="1323" height="168" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593024104248" />
+    <state width="1323" height="168" key="GridCell.Tab.0.left" timestamp="1593024104248">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590520977855" />
-    <state width="1323" height="238" key="GridCell.Tab.0.right" timestamp="1590520977855">
+    <state width="1323" height="168" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593024104248" />
+    <state width="1323" height="168" key="GridCell.Tab.0.right" timestamp="1593024104248">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590520977855" />
+    <state width="1323" height="168" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593024104248" />
     <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1590052322283">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -304,9 +386,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1590330341910" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1589202074747">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1590725646548">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1589202074747" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1590725646548" />
   </component>
 </project>

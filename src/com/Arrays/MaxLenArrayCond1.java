@@ -14,7 +14,8 @@ Output: 4
 {1, 1, 0, 0} and {0, 0, 1, 1} are the maximum length valid sub-arrays.
 */
 
-//Approach: For every two consecutive elements of the array say arr[i] and arr[j] where j = i + 1, treat
+//Approach: For every two consecutive elements of the array say arr[i] and arr[j] where j = i + 1,
+// treat
 // them as the middle two elements of the required sub-array. In order for this sub-array to be a valid
 // sub-array arr[i] must not be equal to arr[j]. If it can be a valid sub-array then its size is 2. Now,
 // try to extend this sub-array to a bigger size by decrementing i and incrementing j at the same time

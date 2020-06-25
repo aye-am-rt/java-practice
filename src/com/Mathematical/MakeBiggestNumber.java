@@ -41,8 +41,8 @@ public class MakeBiggestNumber {
 //            return AB.compareTo(BA)>0?-1:1;
 //        });
         for (Integer integer : arr) {
-            resultSBld.append(integer);
+            resultSBld.append("_").append(integer);  // remove the _ to see original number
         }
-        System.out.println("Largest Number Possible: " + resultSBld.toString());
+        System.out.println("Largest Number Possible: " + resultSBld.toString().substring(1));
     }
 }

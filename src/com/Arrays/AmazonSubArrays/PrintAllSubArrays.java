@@ -15,7 +15,7 @@ public class PrintAllSubArrays {
                 for (int j = startPoint ; j < grps ; j++) {
                     System.out.print(arrA[j] + " ");
                 }
-                System.out.print("\n");
+                System.out.println(" ");
             }
             System.out.println("********");
         }

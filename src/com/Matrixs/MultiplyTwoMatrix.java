@@ -10,7 +10,7 @@ public class MultiplyTwoMatrix {
 
         int row1 = 4, col1 = 3, row2 = 3, col2 = 4;
 
-        int[][] A = { { 1, 1, 1 },
+        int[][] A = { { 10, 10, 10 },
                       { 2, 2, 2 },
                       { 3, 3, 3 },
                       { 4, 4, 4 } };
