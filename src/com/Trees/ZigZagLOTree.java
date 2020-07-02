@@ -45,7 +45,7 @@ public class ZigZagLOTree {
         return (node);
     }
     // Driver code
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         Node root = newNode(1);
         root.left = newNode(2);

@@ -30,7 +30,8 @@ Method 1: The first method uses the technique of Sortings and Two pointers to ar
         A[l] + A[r] ( 1 + 10) increment l. Now l = 2
         A[l] + A[r] ( 4 + 10) increment l. Now l = 3
         A[l] + A[r] ( 6 + 10) == 16 => Found candidates (return 1)
-        Note: If there are more than one pair having the given sum then this algorithm reports
+
+ Note: If there are more than one pair having the given sum then this algorithm reports
  only one. Can be easily extended for this though.
         Algorithm :
         hasArrayTwoCandidates (A[], ar_size, sum)

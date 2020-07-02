@@ -50,6 +50,7 @@ public class FindKClosestValues {
             return;
         }
         PriorityQueue<ArrayList<Integer>> pqAl= new PriorityQueue<>(new MyALComparator());
+
         for (int i = 0; i < k; i++) {
             ArrayList<Integer> al=new ArrayList<>();
             al.add(0,-Math.abs(arr[i]-x));

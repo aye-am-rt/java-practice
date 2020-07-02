@@ -32,6 +32,7 @@ public class CountSub_SumEqualK {
         int[] arr = { 10, 2, -2, -20, 10 };
         int sum = -10;
         int n = arr.length;
+        System.out.print("Number of sub-arrays having sum exactly equal to k,where k is ("+sum+") =  ");
         System.out.println(findSubArraySum(arr, n, sum));
     }
 
@@ -50,7 +51,7 @@ public class CountSub_SumEqualK {
             // this sum and exclude those sub-arrays from currsum by increasing count by same amount.
             if(prevSumMap.containsKey(currSum-sum))
             {
-                res+=prevSumMap.get(currSum-sum);
+                res += prevSumMap.get(currSum-sum);
             }
             // Add currsum value to count of different values of sum.
             Integer count = prevSumMap.get(currSum);

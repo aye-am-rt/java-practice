@@ -30,7 +30,7 @@ Find maximum level sum in Binary Tree
         /   \
         6     7
         Output :  17
-        Recommended: Please solve it on “PRACTICE” first, before moving on to the solution.
+
         This problem is a variation of maximum width problem. The idea is to do level order traversal of
  tree. While doing traversal, process nodes of different level separately. For every level being
  processed, compute sum of nodes in the level and keep track of maximum sum.*/
@@ -47,6 +47,7 @@ public class MaxLevelSum {
             left = right = null;
         }
     }
+    // with same logic maxProduct of all levels also can be found
     public static void main(String[] args)
     {
         Node root = new Node(1);
@@ -66,6 +67,7 @@ public class MaxLevelSum {
           4    5      8
                     /   \
                    6     7    */
+        // with same logic maxProduct of all levels also can be found
         System.out.println("Maximum level sum is using queue "+ maxLevelSumUsingQ(root));
         System.out.println("Maximum level sum is by recursion "+ maxLevelSumUsingRecursion(root));
 
@@ -77,23 +79,29 @@ public class MaxLevelSum {
         if(root == null)
             return 0;
         int maxSumFound=root.data;
-        Queue<Node> queueNodes = new LinkedList<>();
+
+        Queue<Node> queueNodes = new LinkedList<>();// use deque which is faster than lL and Stack both.
         queueNodes.offer(root);
-        while (!queueNodes.isEmpty())
+
+        while (!queueNodes.isEmpty())  // with same logic maxProduct of all levels also can be found
         {
             int count = queueNodes.size();
-            int currSum=0;
+            int currSum=0;  // here currProduct = 1 ... can be said if you want max product.
+
             while (count-- >0)
             {
                 Node top = queueNodes.poll();
                 assert top != null;
-                currSum+=top.data;
+
+                currSum+=top.data;    // here currProduct *= top.data  ...can be used
+
                 if(top.left!=null)
                     queueNodes.offer(top.left);
                 if(top.right!=null)
                     queueNodes.offer(top.right);
             }
             maxSumFound = Math.max(currSum,maxSumFound);
+            // with same logic maxProduct of all levels also can be found
         }
         return maxSumFound;
     }
@@ -114,7 +122,7 @@ public class MaxLevelSum {
         if (root == null || currLevel > maxHeight) {
             return;
         }
-        sumArray[currLevel]+=root.data;
+        sumArray[currLevel] += root.data;
         fillLevelsSumInArray(root.left,maxHeight,sumArray,currLevel+1);
         fillLevelsSumInArray(root.right,maxHeight,sumArray,currLevel+1);
     }
@@ -125,6 +133,7 @@ public class MaxLevelSum {
 
         int leftH= FindMaxLevel(root.left);
         int rightH = FindMaxLevel(root.right);
+
         if(leftH>rightH)
             return leftH+1;
         else

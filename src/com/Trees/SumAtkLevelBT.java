@@ -45,9 +45,10 @@ public class SumAtkLevelBT {
         {
             return root.data+iniSum;
         }
-        int leftSum=sumOfNodesAtNthLevel(root.left,level-1,iniSum);
-        int rightSum=sumOfNodesAtNthLevel(root.right,level-1,iniSum);
-        return (leftSum+rightSum+iniSum);
+        int leftSum = sumOfNodesAtNthLevel(root.left,level-1,iniSum);
+        int rightSum = sumOfNodesAtNthLevel(root.right,level-1,iniSum);
+
+        return (leftSum + rightSum + iniSum);
     }
     static int sumOfNodesAtNthLevelWithQueue(node root, int k)
     {

@@ -36,7 +36,7 @@ public class CheckAnagrams {
        Iterator<Map.Entry<Character, Integer>> it = cMap1.entrySet().iterator();
         while(it.hasNext())
         {
-            Map.Entry ent = (Map.Entry) it.next();
+            Map.Entry ent = it.next();
             Character c = (Character) ent.getKey();
             Integer count = (Integer) ent.getValue();
 

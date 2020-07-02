@@ -31,20 +31,25 @@ public class SortByFreqHash {
 
     private static StringBuffer SortByFreq(int[] arr, int ln) {
         Map<Integer,Integer> countMap =getCountMapMyFunction(arr,ln);
-        StringBuffer result=new StringBuffer();
+
+        StringBuffer resultBuffer=new StringBuffer();
+
         countMap.entrySet().stream().sorted(Map.Entry.<Integer,Integer> comparingByValue().reversed())
                 .forEach(e->{int key=e.getKey();int val=e.getValue();
-                    result.append((key + " ").repeat(Math.max(0, val)));
+                    resultBuffer.append((key + " ").repeat(Math.max(0, val)));
                 });
-        LinkedHashSet<Integer> lhsInts=new LinkedHashSet<>();
-        int[] ansArray= Arrays.stream(result.toString().split(" "))
+
+        int[] ansArray= Arrays.stream(resultBuffer.toString().split(" "))
                 .mapToInt(Integer::parseInt).toArray();
+
+        LinkedHashSet<Integer> lhsInts=new LinkedHashSet<>();
+
         for (int val : ansArray) {
             lhsInts.add(val);
         }
         System.out.println("linked hash set = "+lhsInts);
         System.out.println("ans as integer array = "+Arrays.toString(ansArray));
-        return result;
+        return resultBuffer;
     }
 
 /** output of program =======
